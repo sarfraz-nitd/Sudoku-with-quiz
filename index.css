@@ -1,0 +1,163 @@
+/* Outer */
+
+.popup {
+    width:100%;
+    height:100%;
+    display:none;
+    position:fixed;
+    top:0px;
+    left:0px;
+    background:rgba(0,0,0,0.75);
+}
+
+/* Inner */
+.popup-inner {
+    max-width: 929px;
+    width: 90%;
+    padding: 40px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 2px 6px rgba(0,0,0,1);
+    border-radius: 3px;
+    background: #fff;
+}
+
+/* Close Button */
+.popup-close {
+    width:30px;
+    height:30px;
+    padding-top:4px;
+    display:inline-block;
+    position:absolute;
+    top:0px;
+    right:0px;
+    transition:ease 0.25s all;
+    -webkit-transform:translate(50%, -50%);
+    transform:translate(50%, -50%);
+    border-radius:1000px;
+    background:rgba(0,0,0,0.8);
+    font-family:Arial, Sans-Serif;
+    font-size:20px;
+    text-align:center;
+    line-height:100%;
+    color:#fff;
+}
+
+.popup-close:hover {
+    -webkit-transform:translate(50%, -50%) rotate(180deg);
+    transform:translate(50%, -50%) rotate(180deg);
+    background:rgba(0,0,0,1);
+    text-decoration:none;
+}
+
+#main-body{
+    width: 36%;
+    height: 620px;
+    position: relative;
+    top: 12px;
+    border-collapse: collapse;
+
+}
+tr:nth-child(4) { border-top: 4px solid black }
+tr:nth-child(7) { border-top: 4px solid black }
+
+td:nth-child(3) { border-right: 4px solid black }
+td:nth-child(6) { border-right: 4px solid black }
+    #ques-sec{
+        width: 28%;
+        background-color: darkslategrey;
+        height: 90%;
+        position: fixed;
+        top: 3%;
+        border-radius: 21px;
+        border-style: groove;
+        left: 18px;
+
+    }
+    #time-sec{
+        width: 28%;
+        background-color: darkslategrey;
+        height: 90%;
+        position: fixed;
+        top: 3%;
+        border-radius: 21px;
+        border-style: groove;
+        right: 18px;
+
+    }
+    #option-sec{
+        width: 100%;
+        margin-top: 7%;
+    }
+    #btn-sec{
+        margin: 10px;
+        padding: 0;
+        margin-top: 5%;
+    }
+    .header-1{
+        font-size: 1.5em;
+        color: white;
+        border-style: groove;
+        border-radius: 21px;
+        margin: 0;
+        padding: 11px;
+        font-family:Arial, Sans-Serif;
+    }
+    .btn{
+        width: 141px;
+        height: 42px;
+        background-color: gainsboro;
+        font-style: italic;
+        font-size: 1.3em;
+        border-style: outset;
+        border-radius: 18px;
+    }
+    .btn:hover{
+        background-color: lightblue;
+
+    }
+    #reset-btn{
+        position: relative;
+        left: 48%;
+    }
+    #cancel-btn{
+        position: relative;
+        right: -237px;
+    }
+    .option-selected{
+        border: 2px solid green;
+        padding: 4px;
+    }
+    #submit-btn{
+        position: relative;
+        left: 48px;
+    }
+    h2{
+        font-size: 2.5em;
+        font-family: "Courier New", Courier, monospace;
+        font-style: italic;
+    }
+    #main-body  td{
+        text-align: center;
+        font-size: 2em;
+        font-style: italic;
+    }
+    body{
+        background-color: ghostwhite;
+    }
+    #time-run{
+        height: 52%;
+    }
+    #player-info{
+        height: 19%;
+        margin: 5%;
+        line-height: 1.6;
+        padding: 5%;
+        color: cornsilk;
+        font-size: 1em;
+        font-family: 'Raleway','sans-serif';
+    }
+   
